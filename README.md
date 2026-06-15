@@ -1,7 +1,7 @@
 # YouTube to Spotify Playlist Sync 🎵
 
 <p align="center">
-  <img src="yt2spotify.svg" alt="YT to Spotify Sync Logo" width="160" height="160">
+  <img src="LOGO.svg" alt="YT to Spotify Sync Logo" width="160" height="160">
 </p>
 
 An automated Python tool designed to seamlessly migrate playlists from YouTube directly into your Spotify account using official APIs. 
