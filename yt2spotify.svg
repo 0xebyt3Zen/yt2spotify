@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="syncGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0000" />
+      <stop offset="100%" stop-color="#1DB954" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="512" height="512" rx="128" fill="#121212"/>
+  
+  <g transform="translate(146, 146)">
+    <path d="M 110, 0 A 110,110 0 1,1 0,110" fill="none" stroke="url(#syncGradient)" stroke-width="28" stroke-linecap="round"/>
+    
+    <polygon points="90,75 90,145 155,110" fill="url(#syncGradient)"/>
+  </g>
+</svg>
