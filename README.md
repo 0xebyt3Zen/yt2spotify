@@ -1,5 +1,9 @@
 # YouTube to Spotify Playlist Sync 🎵
 
+<p align="center">
+  <img src="yt2spotify.svg" alt="YT to Spotify Sync Logo" width="160" height="160">
+</p>
+
 An automated Python tool designed to seamlessly migrate playlists from YouTube directly into your Spotify account using official APIs. 
 
 Unlike basic scripts that pull raw text and match incorrect tracks, this tool implements **intelligent title regex cleaning** and **strict field-restricted filtering** (`track:"..." artist:"..."`) to drastically minimize mismatches, covers, or unwanted remixes. It is also optimized to run **100% in-memory**, completely bypassing local cache file generation and sandbox permission errors (`EPERM`) often found in restricted Linux environments.
